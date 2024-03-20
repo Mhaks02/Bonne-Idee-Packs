@@ -1,1 +1,9 @@
-
+{
+  "parent": "minecraft:block/carved_pumpkin",
+  "overrides": [
+  
+	{"predicate": {"custom_model_data": 1}, "model": "custom:item/t_goggles"},
+	{"predicate": {"custom_model_data": 2}, "model": "custom:item/farmer_hat"}
+	
+  ]
+}
