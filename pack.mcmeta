@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 22,
+    "pack_format": 18,
+    "supported_formats": [15, 22],
     "description": "Models custom pour la BDSM"
   }
 }
