@@ -1,6 +1,10 @@
 name: Update resourcepack
 
-on: [push]
+on:
+ push:
+  paths:
+   - assets/**
+   - pack.mcmeta
 
 jobs:
  build:
@@ -38,4 +42,4 @@ jobs:
         
       - name: Trigger Request Basket
         run: |
-          curl -X POST http://localhost:55555/bdsmresourcepack
+          curl -X POST http://192.168.1.58:55555/bdsmresourcepack
