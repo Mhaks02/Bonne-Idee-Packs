@@ -33,13 +33,18 @@ jobs:
           git commit -m "new pack"
           git push --force
 
- trigger-script:
+ update-sha1:
     needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-        
-      - name: Trigger Request Basket
+        uses: actions/checkout@v3
+
+      - name: Calculate SHA1 hash
+        id: sha1
         run: |
-          curl -X POST http://192.168.1.58:55555/bdsmresourcepack
+          echo "::set-output name=sha1::$(sha1sum path/to/your/resourcepack | awk '{print $1}')"
+
+      - name: Send SHA1 to home server
+        run: |
+          curl -X POST http://192.168.1.58:55555/bdsmresourcepack -d '{"sha1": "${{ steps.sha1.outputs.sha1 }}"}'
