@@ -43,7 +43,7 @@ jobs:
       - name: Calculate SHA1 hash
         id: sha1
         run: |
-          echo "::set-output name=sha1::$(sha1sum path/to/your/resourcepack | awk '{print $1}')"
+          echo "::set-output name=sha1::$(sha1sum BDSMCustomModels.zip | awk '{print $1}')"
 
       - name: Send SHA1 to home server
         run: |
