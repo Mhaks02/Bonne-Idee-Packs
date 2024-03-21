@@ -47,4 +47,4 @@ jobs:
 
       - name: Send SHA1 to home server
         run: |
-          curl -X POST http://mhaksserver.duckdns.org:9000 -d '{"sha1": "${{ steps.sha1.outputs.sha1 }}"}'
+          curl -X POST http://mhaksserver.duckdns.org:9000/hooks/redeploy-webhook -d '{"sha1": "${{ steps.sha1.outputs.sha1 }}"}'
