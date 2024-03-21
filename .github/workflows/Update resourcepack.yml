@@ -1,0 +1,41 @@
+name: Update resourcepack
+
+on: [push]
+
+jobs:
+ build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: pull latest and remove old file from repo
+        run: |
+          git config --global user.name "Mhaks02"
+          git config --global user.email "max334201@gmail.com"
+          git config pull.rebase false
+          git pull
+          rm -f release.zip
+        
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          filename: 'BDSMCustomModels.zip'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
+        
+      - name: push changes to remote
+        run: |
+          git add -A
+          git commit -m "new pack"
+          git push --force
+
+ trigger-script:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Trigger Request Basket
+        run: |
+          curl -X POST http://localhost:55555/bdsmresourcepack
