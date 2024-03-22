@@ -44,7 +44,7 @@ jobs:
         id: sha1
         run: |
          sha1=$(openssl dgst -sha1 BDSMCustomModels.zip | awk '{print $2}')
-         echo "sha1=$sha1" >> $GITHUB_ENV
+         echo "::set-output name=sha1::$sha1"
 
       - name: Set up Python
         uses: actions/setup-python@v3
