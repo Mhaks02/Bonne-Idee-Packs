@@ -45,6 +45,15 @@ jobs:
         run: |
           echo "sha1=$(sha1sum BDSMCustomModels.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
 
-      - name: Send SHA1 to home server
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
         run: |
-          curl -X POST http://mhaksserver.duckdns.org:55555/bdsmresourcepack -d '{"sha1": "${{ steps.sha1.outputs.sha1 }}"}'
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Python script
+        run: python send_sha1.py ${{ steps.sha1.outputs.sha1 }}
