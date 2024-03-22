@@ -43,7 +43,7 @@ jobs:
       - name: Calculate SHA1 hash
         id: sha1
         run: |
-         echo "sha1=$(sha1sum BDSMCustomModels.zip | awk '{print $1}')" >> $GITHUB_OUTPUT"
+         echo "sha1=$(sha1sum BDSMCustomModels.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
 
       - name: Set up Python
         uses: actions/setup-python@v3
