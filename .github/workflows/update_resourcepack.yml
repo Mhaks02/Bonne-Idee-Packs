@@ -56,4 +56,4 @@ jobs:
           pip install requests
 
       - name: Run Python script
-        run: python send_sha1.py ${{ steps.sha1.outputs.sha1 }}
+        run: python .github/workflows/send_sha1.py ${{ steps.sha1.outputs.sha1 }}
