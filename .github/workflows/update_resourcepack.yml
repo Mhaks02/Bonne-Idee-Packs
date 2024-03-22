@@ -45,8 +45,8 @@ jobs:
         run: |
           echo "sha1=$(sha1sum BDSMCustomModels.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
 
-          curl -L -o OBDSMCustomModels.zip https://github.com/Mhaks02/BDSMCustomModels/blob/main/BDSMCustomModels.zip?raw=true
-          sha1=$(openssl dgst -sha1 OBDSMCustomModels.zip | awk '{print $2}')
+          curl -L -o BDSMCustomModels.zip https://github.com/Mhaks02/BDSMCustomModels/blob/main/BDSMCustomModels.zip?raw=true
+          sha1=$(openssl dgst -sha1 BDSMCustomModels.zip | awk '{print $2}')
           echo "sha1=$sha1" >> $GITHUB_OUTPUT
 
       - name: Set up Python
