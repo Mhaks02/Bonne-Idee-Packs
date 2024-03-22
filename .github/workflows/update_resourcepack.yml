@@ -43,7 +43,7 @@ jobs:
       - name: Calculate SHA1 hash
         id: sha1
         run: |
-         sha1=$(openssl dgst -sha1 BDSMCustomModels.zip | awk '{print $2}')
+         sha1=$(openssl dgst -sha1 https://github.com/Mhaks02/BDSMCustomModels/blob/main/BDSMCustomModels.zip?raw=true | awk '{print $2}')
          echo "::set-output name=sha1::$sha1"
 
       - name: Set up Python
