@@ -1,7 +1,7 @@
 name: Update resourcepack
 
 on:
- push:
+ workflow_dispatch:
   paths:
    - assets/**
    - pack.mcmeta
