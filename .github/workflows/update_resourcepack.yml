@@ -2,9 +2,9 @@ name: Update resourcepack
 
 on:
  workflow_dispatch:
-  paths:
-   - assets/**
-   - pack.mcmeta
+#  paths:
+#   - assets/**
+#   - pack.mcmeta
 
 jobs:
  build:
