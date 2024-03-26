@@ -19,7 +19,7 @@ jobs:
           git config --global user.email "max334201@gmail.com"
           git config pull.rebase false
           git pull
-          rm -f release.zip
+          rm -f BDSMCustomModels.zip
         
       - name: Archive Release
         uses: thedoctor0/zip-release@master
