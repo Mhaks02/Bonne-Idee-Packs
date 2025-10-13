@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": "Models custom pour la Bonne Soupe"
+    "pack_format": 69,
+    "min_format":  [69, 1],
+    "description": "Models custom pour la Bonne Idée !"
   }
 }

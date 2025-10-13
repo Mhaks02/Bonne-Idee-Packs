@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom:item/licence",
-		"particle": "custom:item/licence"
+		"0": "bonneidee:item/licence",
+		"particle": "bonneidee:item/licence"
 	},
 	"elements": [
 		{

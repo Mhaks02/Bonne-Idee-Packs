@@ -6,6 +6,6 @@
 
   "overrides": [
   
-	{"predicate": {"custom_model_data": 1}, "model": "custom:item/gold_coin"}
+	{"predicate": {"custom_model_data": 1}, "model": "bonneidee:item/gold_coin"}
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "rat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/rat"
+        }
+      },
+      {
+        "when": "farmer_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/farmer_hat"
+        }
+      },
+      {
+        "when": "t_goggles",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/t_goggles"
+        }
+      },
+      {
+        "when": "telephone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/telephone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/carved_pumpkin"
+    }
+  }
+}

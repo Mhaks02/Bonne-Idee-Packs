@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "custom:item/long_spyglass_model",
-		"particle": "custom:item/long_spyglass_model"
+		"1": "bonneidee:item/long_spyglass_model",
+		"particle": "bonneidee:item/long_spyglass_model"
 	},
 	"elements": [
 		{

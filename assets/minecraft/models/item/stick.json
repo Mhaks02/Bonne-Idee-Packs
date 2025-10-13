@@ -6,6 +6,6 @@
 
   "overrides": [
   
-	{"predicate": {"custom_model_data": 1}, "model": "custom:item/mhaks_layout"}
+	{"predicate": {"custom_model_data": 1}, "model": "bonneidee:item/mhaks_layout"}
   ]
 }

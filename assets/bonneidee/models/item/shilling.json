@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom:item/shilling",
-		"particle": "custom:item/shilling"
+		"0": "bonneidee:item/shilling",
+		"particle": "bonneidee:item/shilling"
 	},
 	"elements": [
 		{

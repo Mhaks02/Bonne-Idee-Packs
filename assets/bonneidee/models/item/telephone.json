@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom:item/telephone",
-		"particle": "custom:item/telephone"
+		"0": "bonneidee:item/telephone",
+		"particle": "bonneidee:item/telephone"
 	},
 	"elements": [
 		{

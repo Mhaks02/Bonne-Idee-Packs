@@ -6,7 +6,7 @@
 
   "overrides": [
   
-	{"predicate": {"custom_model_data": 1}, "model": "custom:item/licence"},
-	{"predicate": {"custom_model_data": 2}, "model": "custom:item/edit"}
+	{"predicate": {"custom_model_data": 1}, "model": "bonneidee:item/licence"},
+	{"predicate": {"custom_model_data": 2}, "model": "bonneidee:item/edit"}
   ]
 }

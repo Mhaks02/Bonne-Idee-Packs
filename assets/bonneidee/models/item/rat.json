@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [27, 25],
 	"textures": {
-		"3": "custom:item/rat"
+		"3": "bonneidee:item/rat"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom:item/mhaks_layout",
-		"particle": "custom:item/mhaks_layout"
+		"0": "bonneidee:item/mhaks_layout",
+		"particle": "bonneidee:item/mhaks_layout"
 	},
 	"elements": [
 		{
