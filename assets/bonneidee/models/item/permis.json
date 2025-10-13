@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "bonneidee:item/licence",
-		"particle": "bonneidee:item/licence"
+		"0": "bonneidee:item/permis",
+		"particle": "bonneidee:item/permis"
 	},
 	"elements": [
 		{
@@ -105,27 +106,31 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [-180, 22.25, -180],
-			"translation": [1, 7, 0]
+			"translation": [3, 4.5, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-180, 22.25, -180],
-			"translation": [1, 7, 0]
+			"translation": [3, 4.5, 0]
 		},
 		"ground": {
-			"translation": [0, 6.25, 0],
-			"scale": [1.23, 1.23, 1.23]
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [-166, 38, -172],
+			"rotation": [-166, 27, -172],
 			"translation": [0, 3.75, 0],
-			"scale": [1.59, 1.59, 1.59]
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"head": {
 			"translation": [0, 13.5, 0]
 		},
 		"fixed": {
-			"translation": [0.5, 6, -2],
+			"translation": [0.5, 6, -1.5],
 			"scale": [4, 4, 4]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [

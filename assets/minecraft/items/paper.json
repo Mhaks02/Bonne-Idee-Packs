@@ -1,14 +1,51 @@
 {
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:custom_model_data",
-    "index": 0,
-    "entries": [
+    "property": "minecraft:component",
+    "component": "minecraft:custom_model_data",
+    "cases": [
       {
-        "threshold": 1,
+        "when": {
+          "floats": [
+            0
+          ]
+        },
         "model": {
           "type": "minecraft:model",
           "model": "bonneidee:item/edit"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "edit"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/edit"
+        }
+      },
+      {
+        "when": {
+          "floats": [
+            1
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/permis"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "permis"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/permis"
         }
       }
     ],

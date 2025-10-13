@@ -1,7 +1,12 @@
 {
   "pack": {
-    "pack_format": 69,
-    "min_format":  [69, 1],
-    "description": "Models custom pour la Bonne Idée !"
+    "description": "Models custom pour la Bonne Idée !",
+    "pack_format": 60,
+    "supported_formats": [
+      60,
+      89
+    ],
+    "min_format": 60,
+    "max_format": 89
   }
 }
