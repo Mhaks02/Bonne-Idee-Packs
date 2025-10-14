@@ -6,17 +6,6 @@
     "cases": [
       {
         "when": {
-          "strings": [
-            "farmer_hat"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "bonneidee:item/farmer_hat"
-        }
-      },
-      {
-        "when": {
           "floats": [
             0
           ]
@@ -29,12 +18,12 @@
       {
         "when": {
           "strings": [
-            "rat"
+            "farmer hat"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "bonneidee:item/rat"
+          "model": "bonneidee:item/farmer_hat"
         }
       },
       {
@@ -51,12 +40,12 @@
       {
         "when": {
           "strings": [
-            "t_goggles"
+            "rat"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "bonneidee:item/t_goggles"
+          "model": "bonneidee:item/rat"
         }
       },
       {
@@ -73,7 +62,18 @@
       {
         "when": {
           "strings": [
-            "telephone"
+            "t_goggles"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bonneidee:item/t_goggles"
+        }
+      },
+      {
+        "when": {
+          "floats": [
+            3
           ]
         },
         "model": {
@@ -83,8 +83,8 @@
       },
       {
         "when": {
-          "floats": [
-            3
+          "strings": [
+            "telephone"
           ]
         },
         "model": {
