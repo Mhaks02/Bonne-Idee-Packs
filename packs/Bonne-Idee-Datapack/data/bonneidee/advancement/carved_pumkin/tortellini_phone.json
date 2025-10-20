@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carved_pumpkin",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        3
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Obtenir les lunettes Thaumcraft"
+        },
+        "description": [
+            {
+                "text": "• Tapez ",
+                "color": "green"
+            },
+            {
+                "text": "/trigger CustomModelData set 3\n",
+                "color": "yellow"
+            },
+            {
+                "text": "ou\n",
+                "color": "gold"
+            },
+            {
+                "text": "• Tapez ",
+                "color": "green"
+            },
+            {
+                "text": "/trigger CustomModelName ",
+                "color": "yellow"
+            },
+            {
+                "text": "après avoir renommé la citrouille en ",
+                "color": "gold"
+            },
+            {
+                "text": "tortellini phone",
+                "color": "yellow"
+            }
+        ],
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "bonneidee:carved_pumkin/t_goggles",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

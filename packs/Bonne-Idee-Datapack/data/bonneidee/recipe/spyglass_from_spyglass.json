@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:spyglass"
+  ],
+  "result": {
+    "id": "minecraft:spyglass"
+  }
+}

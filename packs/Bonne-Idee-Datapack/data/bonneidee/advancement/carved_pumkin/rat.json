@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carved_pumpkin",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        1
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Obtenir le rat"
+        },
+        "description": [
+            {
+                "text": "• Tapez ",
+                "color": "green"
+            },
+            {
+                "text": "/trigger CustomModelData set 1\n",
+                "color": "yellow"
+            },
+            {
+                "text": "ou\n",
+                "color": "gold"
+            },
+            {
+                "text": "• Tapez ",
+                "color": "green"
+            },
+            {
+                "text": "/trigger CustomModelName ",
+                "color": "yellow"
+            },
+            {
+                "text": "après avoir renommé la citrouille en ",
+                "color": "gold"
+            },
+            {
+                "text": "rat",
+                "color": "yellow"
+            }
+        ],
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "bonneidee:carved_pumkin/straw_hat",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

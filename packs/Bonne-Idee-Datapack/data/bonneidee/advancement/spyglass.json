@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spyglass"
+        },
+        "title": "Longue-vue",
+        "description": "",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "bonneidee:custom_model_data",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

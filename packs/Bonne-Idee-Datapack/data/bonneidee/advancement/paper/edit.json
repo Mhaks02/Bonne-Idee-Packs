@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        0
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Obtenir l'edit"
+        },
+        "description": [
+            {
+                "text": "• Tapez ",
+                "color": "green"
+            },
+            {
+                "text": "/trigger CustomModelData set 0\n",
+                "color": "yellow"
+            },
+            {
+                "text": "ou\n",
+                "color": "gold"
+            },
+            {
+                "text": "• Tapez ",
+                "color": "green"
+            },
+            {
+                "text": "/trigger CustomModelName ",
+                "color": "yellow"
+            },
+            {
+                "text": "après avoir renommé la citrouille en ",
+                "color": "gold"
+            },
+            {
+                "text": "edit",
+                "color": "yellow"
+            }
+        ],
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "bonneidee:paper",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
