@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "bonneidee:item/farmer_hat",
-		"particle": "bonneidee:item/farmer_hat"
+		"1": "bonneidee:item/straw_hat",
+		"particle": "bonneidee:item/straw_hat"
 	},
 	"elements": [
 		{

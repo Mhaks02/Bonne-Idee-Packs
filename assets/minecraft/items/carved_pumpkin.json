@@ -12,18 +12,18 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "bonneidee:item/farmer_hat"
+          "model": "bonneidee:item/straw_hat"
         }
       },
       {
         "when": {
           "strings": [
-            "farmer hat"
+            "straw hat"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "bonneidee:item/farmer_hat"
+          "model": "bonneidee:item/straw_hat"
         }
       },
       {
@@ -78,18 +78,18 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "bonneidee:item/telephone"
+          "model": "bonneidee:item/tortellini_phone"
         }
       },
       {
         "when": {
           "strings": [
-            "telephone"
+            "tortellini phone"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "bonneidee:item/telephone"
+          "model": "bonneidee:item/tortellini_phone"
         }
       }
     ],
