@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "stripped_woods",
+  "ingredient": "minecraft:mangrove_wood",
+  "result": {
+    "id": "minecraft:stripped_mangrove_wood"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "stripped_logs",
+  "ingredient": "minecraft:bamboo_block",
+  "result": {
+    "id": "minecraft:stripped_bamboo_block"
+  }
+}
